@@ -24,7 +24,7 @@
                               :compiler {
                                          :output-to "resources/public/js/main.js"
                                          :warnings true
-                                         :optimizations :whitespace
+                                         :optimizations :advanced
                                          :pretty-print true
                                          :print-input-delimiter false
                                          :output-dir ".clojurescript-output"

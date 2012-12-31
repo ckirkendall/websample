@@ -9,4 +9,4 @@
   (em/at js/document
          [:#here] (em/content (my-snippet))))
 
-(set! (.-onload js/window) mystart) 
+(set! (.-onload js/window) #(em/wait-for-load (mystart))) 
